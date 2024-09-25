@@ -1,0 +1,275 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+
+}
+
+p {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+img {
+    width: 18px;
+    height: 18px;
+    padding: 12px 12px;
+}
+
+.foremost {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.menu {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.MenuImg {
+    padding: 5px;
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.navigation {
+    padding: 5px;
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chats {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+
+}
+
+.filtrChat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.divDialog {
+    background-color: white;
+    width: 100vw;
+    padding: 10px;
+    border-left: 1px solid #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.setting {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.messeges {
+    font-weight: bold;
+    font-size: 14;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.inputNameUser {
+    border: none;
+    padding: 5px 5px 5px 20px;
+}
+
+.inputNameUser:focus-visible {
+    outline: none;
+}
+
+.imgSearch {
+    padding: 5px;
+}
+
+.butSetting {
+    border: none;
+    background-color: #FAFAFA;
+}
+
+.butExit {
+    border: none;
+    padding: 0px;
+    background-color: #FAFAFA;
+}
+
+.exit {
+    border: none;
+    background-color: #FAFAFA;
+}
+
+.Boxdialog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.dialog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.status {
+    display: block;
+}
+
+.dialogImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boxMessege {
+    height: 100%;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.divSend {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0px 0px 0px;
+    align-items: center;
+}
+
+.sendFile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxSendInput {
+    width: 90%;
+
+}
+
+.sendInput {
+    border: none;
+    border-radius: 15px;
+    background-color: #FAFAFA;
+    padding: 8px;
+    width: 94%;
+}
+
+.boxSendMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.butSenMessage {
+    border: none;
+    color: #27AE60;
+    background: none;
+}
+
+.containerMesseng {
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.userSearchBox {
+    margin-top: 3px;
+    padding: 7px;
+    background-color: #1d00f8;
+    border-radius: 5px;
+}
+.userSearchBoxOn {
+    margin-top: 3px;
+    padding: 7px;
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+
+.newChanelBox {
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    background-color: #FAFAFA;
+    margin: 5px;
+}
+
+.newChanelYea {
+    display: block;
+}
+
+.newChanelNone {
+    display: none;
+}
+.modalOn{
+    display: block;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+.modalOff{
+    display: none;
+}
+.chatOn {
+    display: block;
+}
+.chatOff {
+    display: none;
+}
+.modalWindow{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #D9D9D9;
+}
+.userSearch{
+    padding: 10px;
+}
+.dialogPhraz{
+    display: flex;
+}

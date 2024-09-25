@@ -1,0 +1,37 @@
+.boxAut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* или 100%, если не на всю ширину окна */
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: absolute;
+    left: 41%;
+    top: 33%; */
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 370px;
+    height: 350px;
+    justify-content: space-evenly;
+
+}
+
+.butMainAut {
+    padding: 8px;
+    width: 250px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgb(67, 67, 196);
+    color: white;
+}
+
+.pName {
+    margin: 10px 0px 10px 0px;
+}
